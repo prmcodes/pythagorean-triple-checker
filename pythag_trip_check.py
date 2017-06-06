@@ -8,6 +8,8 @@ b = ask_for_side("second")
 c = ask_for_side("third")
 
 # sort the three inputed values from smallest to largest
+sides = [a, b, c]
+sides.sort()
 
 # Raise each side to the 2nd power
 
