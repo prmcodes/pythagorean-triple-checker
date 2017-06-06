@@ -11,6 +11,13 @@ c = ask_for_side("third")
 sides = [a, b, c]
 sides.sort()
 
+a = sides[0]
+b = sides[1]
+c = sides[2]
+
 # Raise each side to the 2nd power
+a = a**2
+b = b**2
+c = c**2
 
 # Check whether the two smallest sides raised to the second power equal the longest side raised to the second power
