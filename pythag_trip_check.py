@@ -1,6 +1,6 @@
 # Ask user for three sides of a triangle
 def ask_for_side(a):
-  answer = int(input("Enter the " + a + " side of the triangle:"))
+  answer = int(input("Enter the " + a + " side of the triangle:\n"))
   return answer
 
 a = ask_for_side("first")
@@ -21,3 +21,7 @@ b = b**2
 c = c**2
 
 # Check whether the two smallest sides raised to the second power equal the longest side raised to the second power
+if a + b == c:
+    print("\nCongratulations, your triangle is a pythagorean triple!\n")
+else:
+    print("\nSorry, your triangle isn't a pythagorean triple.\n")
